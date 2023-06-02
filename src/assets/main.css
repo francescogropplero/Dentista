@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SF Regular";
+  src: url("./fonts/SF-UI-Display-Regular-1.ttf");
+}
+
+@font-face {
+  font-family: "SF Bold";
+  src: url("./fonts/SF-UI-Text-Bold.ttf");
+}
+
+@font-face {
+  font-family: "SF Semibold";
+  src: url("./fonts/SF-UI-Display-Semibold.ttf");
+}
+
+:root {
+  --rosa: #ffd6ff;
+  --nero: #1d1d1d;
+  --gradiente: linear-gradient(to left, #ece9e6, #ffffff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SF Regular";
+  font-size: 16px;
+  line-height: 1.5;
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
