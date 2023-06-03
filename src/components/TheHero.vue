@@ -32,7 +32,8 @@ h1 {
 }
 h4 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 100;
 }
 .father {
   margin-top: 2rem;
@@ -55,9 +56,13 @@ h4 {
   animation: slideIn 0.9s ease-out;
 }
 
-@media (max-width: 635px) {
+@media (max-width: 430px) {
   h1 {
-    margin-left: 0 !important;
+    margin-top: 10rem !important;
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.3rem;
   }
 }
 </style>
