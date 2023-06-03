@@ -1,5 +1,5 @@
 <template>
-  <section :class="{ 'slide-in': myElement }">
+  <section id="chi-siamo" :class="{ 'slide-in': myElement }">
     <h2>La tua dentista nel monregalese.</h2>
     <p>
       Il benessere dei pazienti è al centro <br />del nostro impegno da più di
@@ -31,7 +31,7 @@ section {
 }
 h2 {
   font-family: "SF Semibold";
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
 p {
   font-size: 1.2rem;
@@ -45,7 +45,7 @@ span {
   font-size: 1.8rem;
 }
 .slide-in {
-  animation: slideIn 0.9s ease-out;
+  animation: slideIn 1.3s ease-out;
 }
 @keyframes slideIn {
   0% {

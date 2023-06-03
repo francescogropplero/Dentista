@@ -18,7 +18,7 @@
           class="link"
           v-for="(item, index) in navLinks"
           :key="index"
-          href="#"
+          :href="`#${item.toLowerCase().replace(/\s/g, '-')}`"
           >{{ item }}</a
         >
       </div>
@@ -78,7 +78,7 @@ a {
   }
 }
 .slide-in {
-  animation: slideIn 0.9s ease-out;
+  animation: slideIn 1.3s ease-out;
 }
 
 /* Media Queries */

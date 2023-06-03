@@ -53,7 +53,7 @@ h4 {
   }
 }
 .slide-in {
-  animation: slideIn 0.9s ease-out;
+  animation: slideIn 1.3s ease-out;
 }
 
 @media (max-width: 430px) {
