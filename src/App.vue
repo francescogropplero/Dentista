@@ -1,1 +1,14 @@
-<template><h1>ccos</h1></template>
+<template><TheNavbar /></template>
+
+<script>
+import TheNavbar from "./components/TheNavbar.vue";
+
+export default {
+  data() {
+    return {};
+  },
+  components: {
+    TheNavbar,
+  },
+};
+</script>
