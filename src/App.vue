@@ -1,7 +1,11 @@
-<template><TheNavbar /></template>
+<template>
+  <TheNavbar />
+  <TheHero />
+</template>
 
 <script>
 import TheNavbar from "./components/TheNavbar.vue";
+import TheHero from "./components/TheHero.vue";
 
 export default {
   data() {
@@ -9,6 +13,7 @@ export default {
   },
   components: {
     TheNavbar,
+    TheHero,
   },
 };
 </script>

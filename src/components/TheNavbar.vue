@@ -1,6 +1,6 @@
 <template>
   <div class="padre mt-14">
-    <div class="logo mr-10">
+    <div class="logo">
       <TheLogo />
     </div>
     <div class="flex justify-center">
@@ -8,7 +8,7 @@
         ref="myElement"
         :class="[
           'nav',
-          'ml-20',
+          'ml-40',
           'px-20',
           'justify-center',
           { 'slide-in': myElement },
@@ -28,6 +28,7 @@
 
 <script>
 import TheLogo from "./TheLogo.vue";
+
 export default {
   data() {
     return {
@@ -76,8 +77,14 @@ a {
     transform: translateY(0);
   }
 }
-
 .slide-in {
   animation: slideIn 0.9s ease-out;
+}
+
+/* Media Queries */
+@media (max-width: 635px) {
+  .padre {
+    display: none !important;
+  }
 }
 </style>
