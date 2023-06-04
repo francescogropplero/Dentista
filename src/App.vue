@@ -6,6 +6,8 @@
     <ThePeople />
   </div>
   <SecondDescription />
+  <GroupInsurance />
+  <TheForm />
 </template>
 
 <script setup>
@@ -14,4 +16,6 @@ import TheHero from "./components/TheHero.vue";
 import FirstDescription from "./components/FirstDescription.vue";
 import SecondDescription from "./components/SecondDescription.vue";
 import ThePeople from "./components/ThePeople.vue";
+import GroupInsurance from "./components/GroupInsurance.vue";
+import TheForm from "./components/TheForm.vue";
 </script>
