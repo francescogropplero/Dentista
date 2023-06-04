@@ -1,5 +1,5 @@
 <template>
-  <div :class="['flex', 'flex-wrap', 'ml-auto', 'mt-28']">
+  <div class="flex flex-wrap ml-auto mt-28">
     <ThePerson
       :class="[{ 'slide-in': myElement }]"
       :img="imageUrl"
@@ -65,5 +65,10 @@ div {
 }
 .slide-in {
   animation: slideIn 1.3s ease-out;
+}
+@media (max-width: 1361px) {
+  div {
+    margin-left: 20vw !important;
+  }
 }
 </style>

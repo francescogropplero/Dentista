@@ -45,6 +45,8 @@ h4 {
   text-align: center;
 }
 img {
+  background-size: cover;
+  min-width: 230px;
   max-width: 280px;
   height: 20vh;
   border-radius: 25px;
@@ -52,5 +54,14 @@ img {
 }
 img:hover {
   transform: scale(1.05);
+}
+@media (max-width: 430px) {
+  img {
+    margin-left: -3.8rem !important;
+  }
+  h3,
+  h4 {
+    margin-left: -30px;
+  }
 }
 </style>

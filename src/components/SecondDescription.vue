@@ -1,12 +1,11 @@
 <template>
-  <section id="chi-siamo" :class="{ 'slide-in': myElement }">
-    <h2>La tua dentista nel monregalese.</h2>
+  <section id="assicurazioni" :class="{ 'slide-in': myElement }">
+    <h2>Parliamo di inclusività.</h2>
     <p>
-      Il benessere dei pazienti è al centro <br />del nostro impegno da più di
-      20 anni. <br />
-      E tutto questo non sarebbe possibile <br />
-      se al nostro fianco non avessimo <br />
-      persone <span>FANTASTICHE</span>
+      Al fine di fornire un servizio di prima <br />
+      qualità accessibile a chiunque, abbiamo <br />
+      stretto convenzioni e collaborazioni con <br />
+      varie TERMINE PRECISO ISTITUZIONE.<br />
     </p>
   </section>
 </template>
@@ -27,7 +26,7 @@ export default {
 <style scoped>
 section {
   margin-left: 7vw;
-  margin-top: 12.5vh;
+  margin-top: 10vh;
 }
 h2 {
   font-family: "SF Semibold";
@@ -57,9 +56,9 @@ span {
 }
 @media (max-width: 430px) {
   section {
-    margin-top: 12rem !important;
+    margin-top: 1rem !important;
     text-align: center;
-    margin-left: 1rem;
+    margin-left: 0;
   }
   h2 {
     font-size: 1.5rem;

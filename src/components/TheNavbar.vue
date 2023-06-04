@@ -3,7 +3,7 @@
     <div class="logo">
       <TheLogo />
     </div>
-    <div class="flex justify-center">
+    <div class="navbar flex justify-center">
       <div
         ref="myElement"
         :class="[
@@ -83,8 +83,16 @@ a {
 
 /* Media Queries */
 @media (max-width: 635px) {
-  .padre {
+  .navbar {
     display: none !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .logo {
+    position: absolute;
+    margin: 0 auto;
+    margin-left: -3rem;
   }
 }
 </style>
