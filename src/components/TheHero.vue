@@ -58,8 +58,8 @@ h4 {
 
 @media (max-width: 430px) {
   h1 {
-    margin-top: 10rem !important;
-    font-size: 2rem;
+    margin-top: 15rem !important;
+    font-size: 3rem;
   }
   h4 {
     font-size: 1.3rem;

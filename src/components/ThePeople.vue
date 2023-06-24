@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap ml-auto mt-28">
+  <div class="flex flex-wrap ml-auto mt-60">
     <ThePerson
       :class="[{ 'slide-in': myElement }]"
       :img="imageUrl"
@@ -9,13 +9,13 @@
     <ThePerson
       :class="[{ 'slide-in': myElement }]"
       :img="image2Url"
-      name="Cognome Anna"
+      name="Rulfo Angela"
       job="Odontoiatra"
     />
     <ThePerson
       :class="[{ 'slide-in': myElement }]"
       :img="imageUrl"
-      name="Cognome Stella"
+      name="Di Caccamo Stella"
       job="Collaboratrice"
     />
     <ThePerson
@@ -69,6 +69,7 @@ div {
 @media (max-width: 1361px) {
   div {
     margin-left: 20vw !important;
+    margin-top: 5rem !important;
   }
 }
 </style>

@@ -3,7 +3,18 @@
     <div class="logo">
       <TheLogo />
     </div>
-    <div class="navbar flex justify-center">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div role="navigation" class="navba flex justify-center">
       <div
         ref="myElement"
         :class="[
@@ -83,13 +94,14 @@ a {
 
 /* Media Queries */
 @media (max-width: 635px) {
-  .navbar {
+  .navba {
     display: none !important;
   }
 }
 
 @media (max-width: 430px) {
   .logo {
+    transform: scale(1.25);
     position: absolute;
     margin: 0 auto;
     margin-left: -3rem;

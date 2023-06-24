@@ -30,17 +30,6 @@ div {
   width: 50%;
   margin: 0 auto;
 }
-@keyframes slideIn {
-  0% {
-    transform: translateY(-10%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-.slide-in {
-  animation: slideIn 1.3s ease-out;
-}
 @media (max-width: 1361px) {
   div {
     margin-left: 20vw !important;

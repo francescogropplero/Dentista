@@ -3,7 +3,7 @@
     <h2>La tua dentista nel monregalese.</h2>
     <p>
       Il benessere dei pazienti è al centro <br />del nostro impegno da più di
-      20 anni. <br />
+      25 anni. <br />
       E tutto questo non sarebbe possibile <br />
       se al nostro fianco non avessimo <br />
       persone <span>FANTASTICHE</span>

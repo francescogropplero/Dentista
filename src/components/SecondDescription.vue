@@ -5,7 +5,7 @@
       Al fine di fornire un servizio di prima <br />
       qualità accessibile a chiunque, abbiamo <br />
       stretto convenzioni e collaborazioni con <br />
-      varie TERMINE PRECISO ISTITUZIONE.<br />
+      vari enti assicurativi:<br />
     </p>
   </section>
 </template>
