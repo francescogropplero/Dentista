@@ -1,6 +1,6 @@
 <template>
   <a :href="link">
-    <button>{{ content }}</button>
+    <button :type="type">{{ content }}</button>
   </a>
 </template>
 
@@ -12,6 +12,10 @@ export default {
       required: true,
     },
     link: {
+      type: String,
+      required: false,
+    },
+    type: {
       type: String,
       required: false,
     },
