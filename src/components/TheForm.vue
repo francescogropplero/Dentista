@@ -21,7 +21,7 @@
       </p>
     </form> -->
 
-    <form class="bg-white flex flex-col justify-center">
+    <form id="contattaci" class="bg-white flex flex-col justify-center">
       <figure class="flex justify-center">
         <img :src="img" alt="logo_form" />
       </figure>

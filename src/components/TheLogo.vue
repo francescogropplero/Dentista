@@ -11,15 +11,15 @@
   height: 9vh;
   width: 15vw;
 }
-
 img {
   height: 100%;
   min-width: 90px;
 }
 @media (max-width: 430px) {
   .padre {
+    margin-left: -1.5rem;
     height: 15vh;
-    width: 25vw;
+    width: 35vw;
   }
 }
 </style>

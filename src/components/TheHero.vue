@@ -1,8 +1,12 @@
 <template>
-  <header :class="['father', { 'slide-in': myElement }]">
+  <header :class="['father', 'col-12', { 'slide-in': myElement }]">
     <h1>Un sorriso cambia tutto.</h1>
     <h4 class="item mb-8">La felicità inizia con un sorriso sano.</h4>
-    <HomeButton style="margin: 0 auto" content="CONTATTACI" />
+    <HomeButton
+      style="margin: 0 auto"
+      link="#contattaci"
+      content="CONTATTACI"
+    />
   </header>
 </template>
 

@@ -1,5 +1,7 @@
 <template>
-  <button>{{ content }}</button>
+  <a :href="link">
+    <button>{{ content }}</button>
+  </a>
 </template>
 
 <script>
@@ -8,6 +10,10 @@ export default {
     content: {
       type: String,
       required: true,
+    },
+    link: {
+      type: String,
+      required: false,
     },
   },
 };
