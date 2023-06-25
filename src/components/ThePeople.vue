@@ -29,7 +29,7 @@
 
 <script>
 import ThePerson from "./ThePerson.vue";
-import donna2 from "@/assets/img/donna2.jpg";
+import CeciliaStea1 from "@/assets/img/CeciliaStea1.jpg";
 import donna from "@/assets/img/donna.jpg";
 import ragazzo from "@/assets/img/ragazzo.jpg";
 
@@ -37,8 +37,8 @@ export default {
   data() {
     return {
       myElement: null,
-      imageUrl: donna,
-      image2Url: donna2,
+      imageUrl: CeciliaStea1,
+      image2Url: donna,
       image3Url: ragazzo,
     };
   },

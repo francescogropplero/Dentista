@@ -22,41 +22,64 @@
       </p>
     </form> -->
 
-      <form
-        id="contattaci"
-        class="py-5 pb-5 bg-white flex flex-col justify-center"
-      >
+      <form id="contattaci" class="pt-5 bg-white flex flex-col justify-center">
         <figure class="flex justify-center">
           <img :src="img" alt="logo_form" />
         </figure>
+        <div>
+          <h3 class="font-semibold text-2xl mb-5 text-center">
+            Compila il form e verrai ricontattato al più presto.
+          </h3>
+        </div>
+        <div class="mb-6">
+          <label for="name" class="block mb-2 text-sm font-medium text-gray-900"
+            >Nominativo*</label
+          >
+          <input
+            type="text"
+            id="name"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="Inserisci nome e cognome."
+            required
+          />
+        </div>
         <div class="mb-6">
           <label
             for="email"
             class="block mb-2 text-sm font-medium text-gray-900"
-            >Your email</label
+            >Email*</label
           >
           <input
             type="email"
             id="email"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="name@flowbite.com"
+            placeholder="Inserisci la tua e-mail."
             required
           />
         </div>
-        <div class="mb-6">
+        <div class="mb-6 flex flex-col">
           <label
-            for="password"
+            for="testo"
             class="block mb-2 text-sm font-medium text-gray-900"
-            >Your password</label
+            >Testo*</label
           >
-          <input
+          <textarea
+            class="self-center bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            name="testo"
+            placeholder="Come possiamo aiutarti?"
+            id=""
+            cols="35"
+            rows="7"
+            required
+          ></textarea>
+          <!-- <input
             type="password"
             id="password"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
             required
-          />
+          /> -->
         </div>
-        <HomeButton class="bottone mt-4" content="Invia" type="submit" />
+        <HomeButton class="bottone" content="Invia" type="submit" />
       </form>
     </div>
   </div>
@@ -79,16 +102,26 @@ export default {
 </script>
 
 <style scoped>
+figure {
+  margin-top: -3rem !important;
+}
 img {
   height: 12.75rem;
   width: 12.75rem;
   margin-left: -1rem;
+}
+label {
+  width: 60%;
+  margin: 0 auto;
 }
 input {
   border-radius: 25px;
   width: 60%;
   height: 5%;
   margin: 0 auto;
+}
+textarea {
+  width: 60%;
 }
 form {
   border: inherit;
