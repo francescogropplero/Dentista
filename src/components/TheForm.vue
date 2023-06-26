@@ -1,6 +1,6 @@
 <template>
   <div class="row w-100 my-5 d-flex justify-center">
-    <div class="my-5 col-lg-4 col-md-8 col-12">
+    <div class="my-5 col-lg-5 col-md-10 col-12">
       <!-- <form name="contact" method="POST" netlify>
       <figure>
         <img :src="img" alt="logo_form" />
@@ -32,39 +32,35 @@
           </h3>
         </div>
         <div class="mb-6">
-          <label for="name" class="block mb-2 text-sm font-medium text-gray-900"
+          <label for="name" class="block mb-2 text-sm font-medium"
             >Nominativo*</label
           >
           <input
             type="text"
             id="name"
-            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-2.5"
             placeholder="Inserisci nome e cognome."
             required
           />
         </div>
         <div class="mb-6">
-          <label
-            for="email"
-            class="block mb-2 text-sm font-medium text-gray-900"
+          <label for="email" class="block mb-2 text-sm font-medium"
             >Email*</label
           >
           <input
             type="email"
             id="email"
-            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-2.5"
             placeholder="Inserisci la tua e-mail."
             required
           />
         </div>
         <div class="mb-6 flex flex-col">
-          <label
-            for="testo"
-            class="block mb-2 text-sm font-medium text-gray-900"
+          <label for="testo" class="block mb-2 text-sm font-medium"
             >Testo*</label
           >
           <textarea
-            class="self-center bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            class="self-center bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
             name="testo"
             placeholder="Come possiamo aiutarti?"
             id=""
@@ -108,20 +104,20 @@ figure {
 img {
   height: 12.75rem;
   width: 12.75rem;
-  margin-left: -1rem;
+  /* margin-left: -1rem; */
 }
 label {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 input {
   border-radius: 25px;
-  width: 60%;
+  width: 70%;
   height: 5%;
   margin: 0 auto;
 }
 textarea {
-  width: 60%;
+  width: 70%;
 }
 form {
   border: inherit;

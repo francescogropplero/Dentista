@@ -8,6 +8,7 @@
   <SecondDescription />
   <GroupInsurance />
   <TheForm />
+  <TheFooter />
 </template>
 
 <script setup>
@@ -18,4 +19,5 @@ import SecondDescription from "./components/SecondDescription.vue";
 import ThePeople from "./components/ThePeople.vue";
 import GroupInsurance from "./components/GroupInsurance.vue";
 import TheForm from "./components/TheForm.vue";
+import TheFooter from "./components/TheFooter.vue";
 </script>
